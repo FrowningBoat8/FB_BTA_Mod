@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "fb_bta_mod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "My First BTA Mod",
+  "description": "This mod adds coloured glass to the game.",
   "authors": [
-    "Turnip Labs"
+    "FrowningBoat8"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+      "frowningBoat.fb_bta_mod.fb_bta_mod"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "frowningBoat.fb_bta_mod.fb_bta_mod"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "frowningBoat.fb_bta_mod.fb_bta_mod"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+          "frowningBoat.fb_bta_mod.fb_bta_mod"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "fb_bta_mod.mixins.json"
   ],
 
   "depends": {
