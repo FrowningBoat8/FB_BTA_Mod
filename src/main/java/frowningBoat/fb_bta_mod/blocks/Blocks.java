@@ -30,9 +30,8 @@ public class Blocks {
 		BlockBuilder glass = new BlockBuilder(MOD_ID)
 			.setLightOpacity(0)
 			.setBlockSound(BlockSounds.GLASS)
-			.setHardness(2)
-			.setResistance(25);
-
+			.setHardness(0.35F)
+			.setResistance(0.5F);
 		testBlock2 = testBlock
 			.setTextures("redCross.png")
 			.build(new BlockGlass("testBlock2", blockID("testBlock2"), Material.wood, false).withTags(BlockTags.MINEABLE_BY_AXE));
